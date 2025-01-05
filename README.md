@@ -91,7 +91,8 @@ class ResizeObservation(gym.ObservationWrapper):
         observation = transforms(observation).squeeze(0)
         return observation
 ```
----
+<br />
+
 ## 4. Agent
 <img src="https://github.com/user-attachments/assets/fc79c23d-f8d5-4f81-bd67-d6b58754ff64" width="400px" />
 
@@ -190,7 +191,8 @@ class Mario(Mario):  # 연속성을 위한 하위 클래스입니다.
 ### 4.3 Learn
 - 최적의 action을 위한 Q-function 업데이트
 - chapter 5에서 계속..
----
+<br />
+
 ## 5. Learn
 ### 5.1 MarioNet(DDQN)
 - **DDQN**: action의 선택(online 네트워크)과 평가(target 네트워크)를 분리
@@ -289,7 +291,8 @@ class Mario(Mario):
     def sync_Q_target(self):
         self.net.target.load_state_dict(self.net.online.state_dict())
 ```
----
+<br />
+
 ## 6. Train
 - 게임 종료 시까지 { state -> action -> cache -> learn -> log -> next_state } 반복
 ```python
@@ -341,7 +344,6 @@ for e in range(episodes):
         logger.record(episode=e, epsilon=mario.exploration_rate, step=mario.curr_step)
 ```
 <br/>
-<br/>
 
 ## 7. Experiment
 ### 7.1 Using Scheduler
@@ -369,7 +371,7 @@ env = JoypadSpace(env, [
 - 보유 자원의 부족으로 인한 학습의 한계가 있어 너무 아쉬웠음
 <br />
 
-## 7. Presentation PDF
+## 9. Presentation PDF
 - 프로젝트 자세히 알아보기
 
 [📄 MoonNest_PDF](https://github.com/maeng99/2024_Cossthon_MoonNest/blob/main/2024_SM%40COSSTHON_MoonNest_pdf.pdf)
