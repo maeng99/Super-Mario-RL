@@ -374,6 +374,6 @@ env = JoypadSpace(env, [
 ## 9. Presentation PDF
 - 프로젝트 자세히 알아보기
 
-[📄 MoonNest_PDF](https://github.com/maeng99/2024_Cossthon_MoonNest/blob/main/2024_SM%40COSSTHON_MoonNest_pdf.pdf)
+[📄 SuperMarioBros_RL_PDF](https://github.com/maeng99/SuperMarioBros_RL/blob/main/SuperMarioBros_RL_pdf.pdf)
 
 
