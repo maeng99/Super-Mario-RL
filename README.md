@@ -7,7 +7,7 @@
 ## 1. Project Overview
 - 프로젝트 이름: **"Super Mario Bros Reinforcement Learning"**
 - 프로젝트 주제: Open AI Gym 환경을 기반으로 DDQN(Double Deep Q-Network)을 사용하여 슈퍼마리오 게임을 수행
-- 프로젝트 기간
+- 프로젝트 기간: 2024.11. ~ 2024.12. (1개월)
 <br/>
 
 ## 2. Team Members
