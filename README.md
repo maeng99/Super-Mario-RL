@@ -1,15 +1,17 @@
 <img src="https://github.com/user-attachments/assets/830d617a-3f18-4c90-a49e-5e31931b38c3" width="100%"/>
 
-# 🍄강화학습으로 슈퍼마리오 게임하기🍄
+# 🍄강화학습 Final Project - "Super Mario Bros. RL": 강화학습으로 슈퍼마리오 게임하기🍄
 <img src="https://github.com/user-attachments/assets/d1ab96f1-cd6e-402c-b21a-52c84297ecad" width="300px"/>
 <br/>
 
 ## 1. Project Overview
-- **프로젝트 이름: Super Mario Bros Reinforcement Learning**
-- 프로젝트 설명: Open AI Gym 환경을 기반으로 DDQN(Double Deep Q-Network)을 사용하여 슈퍼마리오 게임을 수행
+- 프로젝트 이름: **"Super Mario Bros Reinforcement Learning"**
+- 프로젝트 주제: Open AI Gym 환경을 기반으로 DDQN(Double Deep Q-Network)을 사용하여 슈퍼마리오 게임을 수행
+- 프로젝트 기간
 <br/>
 
 ## 2. Team Members
+Team: **"말25팀"**
 | 맹의현 | 진영인 |
 |:------:|:------:|
 | [GitHub](https://github.com/maeng99) | [GitHub](https://github.com/) |
@@ -372,8 +374,6 @@ env = JoypadSpace(env, [
 <br />
 
 ## 9. Presentation PDF
-- 프로젝트 자세히 알아보기
-
-[📄 SuperMarioBros_RL_PDF](https://github.com/maeng99/SuperMarioBros_RL/blob/main/SuperMarioBros_RL_pdf.pdf)
+- 프로젝트 자세히 알아보기<br />[📄 SuperMarioBros_RL_PDF](https://github.com/maeng99/SuperMarioBros_RL/blob/main/SuperMarioBros_RL_pdf.pdf)
 
 
